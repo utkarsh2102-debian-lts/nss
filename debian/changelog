@@ -1,3 +1,11 @@
+nss (2:3.26.2-1.1+deb9u4) stretch-security; urgency=high
+
+  * Non-maintainer upload by the LTS team.
+  * Add missing breaks; in secvfy.c to fix
+    regressions w/ ssl connections. (Closes: #1001219)
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Tue, 07 Dec 2021 14:08:03 +0530
+
 nss (2:3.26.2-1.1+deb9u3) stretch-security; urgency=high
 
   * Non-maintainer upload by the LTS team.
